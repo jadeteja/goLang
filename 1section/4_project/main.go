@@ -6,7 +6,8 @@ const (
 	 levelTrace logLevel = iota
 	 levelDebug 
 	 levelInfo
-	 level
+	 levelWarning
+	 levelError 
 )
 
 func main(){
